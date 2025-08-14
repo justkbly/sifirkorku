@@ -1,0 +1,71 @@
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+*.VC.db
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.tmp
+*.log
+*.vsconfig
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build results
+*.pdb
+*.obj
+*.exe
+*.dll
+*.lib
+*.app
+*.ipa
+*.iOS
+
+# Other
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+.idea/
+*.iml
+
+# Ignore config files with local paths or machine-specific data
+*.local
+*.swp
+
+# Crash/Diagnostics logs
+*.dmp
+
+# Compiled shader caches
+*_SC.bin
+
+# Unreal Engine Launcher logs/cache
+Engine/Programs/UnrealLightmass/Saved/
+Engine/Programs/UnrealHeaderTool/Saved/
+Engine/Programs/UnrealBuildTool/Saved/
+
+# Ignore DDC (Derived Data Cache)
+Engine/DerivedDataCache/
+
+# Ignore platform-specific project files
+*.xcodeproj/
+*.xcworkspace/
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+
+# Ignore Web Cache (for Chromium Embedded Framework used in UE)
+Saved/webcache*/
